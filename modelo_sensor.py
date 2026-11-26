@@ -10,7 +10,7 @@ class LecturaSensor:
             return "ALERTA: RIESGO DE DESCOMPOSICION"
         elif self.valor_temperatura < 4.0:
             return "ALERTA: RIESGO DE CONGELAMIENTO"
-        return "OPTIMO"
+        return "TEMPERATURA OPTIMA DE EXPORTACION"
 
     def convertir_a_diccionario(self):
         return {
