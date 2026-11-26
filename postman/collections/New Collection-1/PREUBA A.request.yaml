@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:5000/telemetria
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"lote\": \"LOTE-ARANDANOS-OLMOS\",\r
+
+    \  \"temperatura\": 8.4,\r
+
+    \  \"humedad\": 82.0\r
+
+    }"
+order: 1000
